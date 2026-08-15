@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saqlain Basit | Systems Portfolio</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Clean Professional Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Tracker -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="nav-container">
+
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+            </nav>
+
+
+
+            <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content reveal">
+                <h1 class="hero-title">Saqlain Basit</h1>
+                <h2 class="hero-typing-container">
+                    Focusing on <span id="typing-text" class="accent-orange"></span><span class="cursor">_</span>
+                </h2>
+                <p class="hero-description">
+                    Computer Science undergraduate specializing in backend architecture, systems security, and containerized development workflows.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://calendly.com/saqlainbasit121/new-meeting" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Book a Meeting</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p class="lead">
+                            I build automated workflows, backend integrations, and reliable local development environments.
+                        </p>
+                        <p>
+                            My approach focuses on writing clean, efficient backend systems with a minimal footprint. I enjoy configuring containerized microservices, writing automation scripts, and database optimization.
+                        </p>
+                    </div>
+                    
+                    <div class="about-visual reveal">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-icon">🎓</span>
+                                <span class="stat-value">1st Year</span>
+                                <span class="stat-label">BS Computer Science</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-icon">🚀</span>
+                                <span class="stat-value">5 Projects</span>
+                                <span class="stat-label">Shipped & on GitHub</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-icon">🧠</span>
+                                <span class="stat-value">Tech Enthusiast</span>
+                                <span class="stat-label">Daily Builder & Learner</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-icon">🤝</span>
+                                <span class="stat-value">Open To</span>
+                                <span class="stat-label">Collabs & Internships</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="projects-section-header reveal">
+                    <div>
+                        <h2 class="section-title">Projects</h2>
+                        <p class="section-subtitle">A collection of backend services, local utilities, and simulation tools.</p>
+                    </div>
+                </div>
+
+                <!-- Grid dynamically filled via JS -->
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="skills-category-card reveal">
+                        <h3 class="skills-category-title">Languages & Frameworks</h3>
+                        <div class="skills-badge-grid">
+                            <div class="skill-badge-item"><span>C++</span></div>
+                            <div class="skill-badge-item"><span>Python</span></div>
+                            <div class="skill-badge-item"><span>JavaScript</span></div>
+                            <div class="skill-badge-item"><span>React + Vite</span></div>
+                            <div class="skill-badge-item"><span>Node.js / Express</span></div>
+                            <div class="skill-badge-item"><span>HTML / CSS</span></div>
+                            <div class="skill-badge-item"><span>Tailwind CSS</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category-card reveal">
+                        <h3 class="skills-category-title">DevOps & Tools</h3>
+                        <div class="skills-badge-grid">
+                            <div class="skill-badge-item"><span>Docker</span></div>
+                            <div class="skill-badge-item"><span>Docker Compose</span></div>
+                            <div class="skill-badge-item"><span>Nginx</span></div>
+                            <div class="skill-badge-item"><span>Git & GitHub</span></div>
+                            <div class="skill-badge-item"><span>Postman</span></div>
+                            <div class="skill-badge-item"><span>Linux (Arch)</span></div>
+                            <div class="skill-badge-item"><span>WSL2</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category-card reveal">
+                        <h3 class="skills-category-title">Databases</h3>
+                        <div class="skills-badge-grid">
+                            <div class="skill-badge-item"><span>MySQL</span></div>
+                            <div class="skill-badge-item"><span>MySQL Workbench</span></div>
+                            <div class="skill-badge-item"><span>SQL DDL / DML</span></div>
+                            <div class="skill-badge-item"><span>Normalization</span></div>
+                            <div class="skill-badge-item"><span>ER Modeling</span></div>
+                            <div class="skill-badge-item"><span>Stored Procedures</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category-card reveal">
+                        <h3 class="skills-category-title">APIs & Networking</h3>
+                        <div class="skills-badge-grid">
+                            <div class="skill-badge-item"><span>REST APIs</span></div>
+                            <div class="skill-badge-item"><span>Socket.io</span></div>
+                            <div class="skill-badge-item"><span>Axios</span></div>
+                            <div class="skill-badge-item"><span>HTTP Proxying</span></div>
+                            <div class="skill-badge-item"><span>API Testing</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; <span id="year"></span> Saqlain Basit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
