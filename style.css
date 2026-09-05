@@ -74,7 +74,6 @@ img { display: block; max-width: 100%; }
   align-items: center;
   justify-content: space-between;
   padding: 13px 22px;
-  border-bottom: 3px solid var(--ink);
   position: sticky;
   top: 0;
   background: var(--paper);
