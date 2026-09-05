@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Header row
     const header = document.createElement('div');
     header.className = 'index-header';
-    header.innerHTML = `<div>№</div><div>Project</div><div>Stack</div><div class="right">Repo ↗</div>`;
+    header.innerHTML = `<div aria-hidden="true"></div><div aria-hidden="true"></div><div>Stack</div><div class="right">Repo ↗</div>`;
     container.appendChild(header);
 
     projects.forEach(p => {
