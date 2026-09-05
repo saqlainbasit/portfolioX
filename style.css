@@ -243,7 +243,6 @@ img { display: block; max-width: 100%; }
   align-items: baseline;
   justify-content: space-between;
   padding-right: 22px;
-  border-bottom: 1px solid var(--ink);
 }
 .projects-count {
   font-family: var(--mono);
