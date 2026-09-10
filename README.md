@@ -1,6 +1,4 @@
 # portfolioX
-
-https://roadmap.sh/projects/single-page-cv
  
 Personal portfolio/CV site — brutalist editorial design, vanilla HTML/CSS/JS.
 
@@ -57,3 +55,6 @@ Push to `main` — Vercel auto-deploys via GitHub integration.
 ---
 
 © 2026 Saqlain Basit
+
+
+made this project for roadmap.sh with the link (https://roadmap.sh/projects/single-page-cv)
